@@ -74,6 +74,28 @@ h2{
     height: 30px;
     color: white;
 }
+.hangman {
+    position: absolute;
+    top: 95px;
+}
+.rpg {
+    position: absolute;
+    left: 150px;
+    top: 95px;
+}
+.trivia {
+    position: absolute;
+    top: 230px;
+}
+.rutgers {
+    position: absolute;
+    left: 150px;
+    top: 230px;
+}
+.scissors {
+    position: absolute;
+    top: 365px;
+}
 .footer {
     position: fixed;
     bottom: 0px;
