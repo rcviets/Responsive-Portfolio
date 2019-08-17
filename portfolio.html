@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <title>Portfolio</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
 </head>
 
@@ -14,33 +13,29 @@
     <p class="name">Randa Viets</p>
   </div>
 
-  <ul class="nav justify-content-end">
-    <li class="nav-item">
-      <a class="nav-link active" href="index.html">About</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link active" href="portfolio.html">Portfolio</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link active" href="contact.html">Contact</a>
-    </li>
-  </ul>
+  <div class="nav">
+    <header>
+      <a href="contact.html">Contact</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="index.html">About</a>
+    </header>
+  </div>
 
   <div class="container">
-    <h1 id="title">Portfolio</h1>
-    <br>
+    <h1 class="title">Portfolio</h1>
     <hr>
+    <div class="projects">
       <div class="hangman">
         <img src="http://lorempixel.com/125/125">
         <div class="bar">
-        <h3>Hangman</h3>
+          <h3>Hangman</h3>
         </div>
       </div>
       <div class="rpg">
         <img src="http://lorempixel.com/125/125">
         <div class="bar">
-        <h3>RPG Game</h3>
-      </div>
+          <h3>RPG Game</h3>
+        </div>
       </div>
       <div class="trivia">
         <img src="http://lorempixel.com/125/125">
@@ -60,6 +55,7 @@
           <h4>Rock Paper Scissors</h4>
         </div>
       </div>
+    </div>
 
     <div class="footer">
       <p class="copy">Copyright Panda Productions 2019 &copy;</p>

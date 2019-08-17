@@ -1,7 +1,7 @@
 .nameplate {
     background-color: #4aaaa5;
     color: white;
-    position: relative;
+    position: fixed;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     text-align: center;
     font-size: 20px;
@@ -13,7 +13,7 @@
 }
 .name {
     position: relative;
-    top: 10px;
+    bottom: 10px;
 }
 .nav {
     background-color: #ffffff;
@@ -23,7 +23,11 @@
     width: 100%;
     z-index: 1;
 }
-a:link {
+.nav a {
+    float: right;
+    color: #777777;
+    padding: 14px;
+    text-decoration: none;
     position: relative;
     right: 200px;
 }
@@ -48,7 +52,7 @@ h1 {
     font-weight: bold;
     color: #4aaaa5;
     position: relative;
-    top: 25px;
+    top: 5px;
     left: 20px;
 }
 .photo {
@@ -63,7 +67,10 @@ h1 {
     margin-right: 0 auto;
     margin-left: 0 auto;
 }
-h2{
+.form {
+    padding: 16px;
+}
+h2 {
     color: #777777;
     font-size: 16px;
 }
@@ -73,6 +80,9 @@ h2{
     width: 100px;
     height: 30px;
     color: white;
+}
+.projects {
+    padding: 16px;
 }
 .hangman {
     position: absolute;
@@ -92,14 +102,16 @@ h3 {
     font-size: 16px;
     color: white;
     text-align: center;
-    top: 2.5px;
+    bottom: 15px;
+    z-index: 3;
 }
 h4 {
     position: relative;
     font-size: 12px;
     color: white;
     text-align: center;
-    top: 5px;
+    bottom: 12px;
+    z-index: 3;
 }
 .rpg {
     position: absolute;
@@ -131,6 +143,6 @@ h4 {
 .copy {
     position: relative;
     font-size: 10px;
-    top: 15px;
+    top: 5px;
     color: #ffffff;
 }
