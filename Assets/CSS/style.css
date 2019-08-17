@@ -77,6 +77,29 @@ h2{
 .hangman {
     position: absolute;
     top: 95px;
+    z-index: 1;
+}
+.bar {
+    position: absolute;
+    bottom: 10px;
+    width: 125px;
+    height: 25px;
+    z-index: 2;
+    background-color: #4aaaa5;
+}
+h3 {
+    position: relative;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    top: 2.5px;
+}
+h4 {
+    position: relative;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    top: 5px;
 }
 .rpg {
     position: absolute;
