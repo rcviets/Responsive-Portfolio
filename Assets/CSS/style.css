@@ -63,3 +63,18 @@ h1 {
     margin-right: 0 auto;
     margin-left: 0 auto;
 }
+.footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    background-color: gray;
+    width: 100%;
+    border-top: 8px solid #4aaaa5;
+}
+.copy {
+    position: relative;
+    font-size: 10px;
+    top: 15px;
+    color: #ffffff;
+}
