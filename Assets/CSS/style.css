@@ -209,13 +209,13 @@ h4 {
     .rutgers{
         position: relative;
         float: left;
-        top: 35px;
+        top: 25px;
         width: 100%;
     }
     .scissors {
         position: relative;
         float: left;
-        top: 45px;
+        top: 35px;
         left: 150px;
         width: 100%;
     }
