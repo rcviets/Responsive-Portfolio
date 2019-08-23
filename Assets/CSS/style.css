@@ -163,4 +163,22 @@ h4 {
         position: relative;
         text-align: center;
     }
+    .container {
+        position: relative;
+        top: 100px;
+        left: 5px;
+        width: 455px;
+        margin: 0 auto;
+        font-size: 11.5px;
+    }
+    .bio {
+        margin: 5px;
+    }
+    .footer {
+        height: 25px;
+    }
+    .copy{
+        position: relative;
+        top: -5px;
+    }
 }
