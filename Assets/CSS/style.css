@@ -185,4 +185,37 @@ h4 {
         position: relative;
         top: -5px;
     }
+    .hangman {
+        position: relative;
+        float: left;
+        top: 5px;
+        left: 150px;
+        width: 100%;
+    }
+    .rpg {
+        position: relative;
+        float: left;
+        top: 25px;
+        width: 100%;
+    }
+    .trivia {
+        position: relative;
+        float: left;
+        top: 45px;
+        left: 150px;
+        width: 100%;
+    }
+    .rutgers{
+        position: relative;
+        float: left;
+        top: 70px;
+        width: 100%;
+    }
+    .scissors {
+        position: relative;
+        float: left;
+        top: 90px;
+        left: 150px;
+        width: 100%;
+    }
 }
