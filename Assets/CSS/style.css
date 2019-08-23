@@ -168,13 +168,17 @@ h4 {
         top: 100px;
         left: 5px;
         width: 455px;
+        height: 700px;
         margin: 0 auto;
-        font-size: 11.5px;
+        bottom: 10px;
+        font-size: 14px;
     }
     .bio {
         margin: 5px;
     }
     .footer {
+        position: fixed;
+        bottom: 0px;
         height: 25px;
     }
     .copy{
