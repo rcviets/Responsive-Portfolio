@@ -220,3 +220,13 @@ h4 {
         width: 100%;
     }
 }
+@media screen and (max-width: 768px) {
+    .nameplate {
+        position: fixed;
+        left: 10px;
+    }
+    .nav a {
+        position: relative;
+        right: 0px;
+    }
+}
