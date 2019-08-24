@@ -224,6 +224,7 @@ h4 {
     .nameplate {
         position: fixed;
         left: 10px;
+        top: 0px;
     }
     .nav a {
         position: relative;
@@ -231,8 +232,12 @@ h4 {
     }
     .container {
         position: relative;
-        top: 100px;
+        top: 70px;
         left: 20px;
         width: 700px;
+        height: 700px;
+    }
+    .bio {
+        margin: 5px;
     }
 }
