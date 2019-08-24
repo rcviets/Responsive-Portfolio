@@ -150,6 +150,28 @@ h4 {
     top: 5px;
     color: #ffffff;
 }
+@media screen and (max-width: 860px) {
+    .nameplate {
+        position: fixed;
+        left: 10px;
+        top: 0px;
+    }
+    .nav a {
+        position: relative;
+        right: 0px;
+    }
+    .container {
+        position: relative;
+        top: 70px;
+        left: 20px;
+        width: 700px;
+        height: 700px;
+    }
+    .bio {
+        margin: 5px;
+    }
+}
+
 @media screen and (max-width: 640px) {
     .nameplate {
         position: fixed;
@@ -221,26 +243,5 @@ h4 {
         top: 35px;
         left: 150px;
         width: 100%;
-    }
-}
-@media screen and (max-width: 860px) {
-    .nameplate {
-        position: fixed;
-        left: 10px;
-        top: 0px;
-    }
-    .nav a {
-        position: relative;
-        right: 0px;
-    }
-    .container {
-        position: relative;
-        top: 70px;
-        left: 20px;
-        width: 700px;
-        height: 700px;
-    }
-    .bio {
-        margin: 5px;
     }
 }
