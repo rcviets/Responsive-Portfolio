@@ -70,6 +70,9 @@ h1 {
 .form {
     padding: 16px;
 }
+.message {
+    border-color: initial;
+}
 h2 {
     color: #777777;
     font-size: 16px;
@@ -220,7 +223,7 @@ h4 {
         width: 100%;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 860px) {
     .nameplate {
         position: fixed;
         left: 10px;
