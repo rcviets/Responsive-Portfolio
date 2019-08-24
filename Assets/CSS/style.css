@@ -90,14 +90,13 @@ h2 {
 .hangman {
     position: absolute;
     top: 95px;
-    z-index: 1;
 }
 .bar {
     position: absolute;
     bottom: 10px;
     width: 125px;
     height: 25px;
-    z-index: 2;
+    z-index: 1;
     background-color: #4aaaa5;
 }
 h3 {
@@ -106,7 +105,7 @@ h3 {
     color: white;
     text-align: center;
     bottom: 15px;
-    z-index: 3;
+    z-index: 2;
 }
 h4 {
     position: relative;
@@ -114,7 +113,7 @@ h4 {
     color: white;
     text-align: center;
     bottom: 12px;
-    z-index: 3;
+    z-index: 2;
 }
 .rpg {
     position: absolute;
@@ -142,7 +141,7 @@ h4 {
     background-color: gray;
     width: 100%;
     border-top: 8px solid #4aaaa5;
-    z-index: 4;
+    z-index: 3;
 }
 .copy {
     position: relative;
@@ -152,9 +151,13 @@ h4 {
 }
 @media screen and (max-width: 860px) {
     .nameplate {
-        position: fixed;
+        position: relative;
         left: 10px;
-        top: 0px;
+        top: -20px;
+    }
+    .name {
+        position: relative;
+        top: 10px;
     }
     .nav a {
         position: relative;
@@ -162,10 +165,10 @@ h4 {
     }
     .container {
         position: relative;
-        top: 70px;
-        left: 20px;
+        top: 0px;
+        left: 60px;
         width: 700px;
-        height: 700px;
+        height: 650px;
     }
     .bio {
         margin: 5px;
@@ -174,27 +177,26 @@ h4 {
 
 @media screen and (max-width: 640px) {
     .nameplate {
-        position: fixed;
-        top: 0px;
-        left: 0px;
+        position: static;
         width: 100%;
     }
+    .name {
+        top: 10px;
+    }
     .nav {
-        position: fixed;
-        top: 50px;
-        left: 0px;
+        position: static;
         width: 100%;
     }
     .nav a {
-        position: relative;
+        position: static;
         text-align: center;
     }
     .container {
         position: relative;
-        top: 100px;
+        top: 10px;
         left: 5px;
         width: 455px;
-        height: 800px;
+        height: 850px;
         margin: 0 auto;
         bottom: 10px;
         font-size: 14px;
